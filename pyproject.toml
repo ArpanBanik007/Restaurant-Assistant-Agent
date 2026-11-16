@@ -1,0 +1,18 @@
+﻿[project]
+name = "rest-project"
+version = "0.1.0"
+description = "Restaurant ordering assistant built with LangGraph"
+readme = "README.md"
+authors = [
+    { name = "Arpan Banik", email = "arpanbanik976@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "langgraph>=0.2.0",
+    "langchain-groq>=0.2.0",
+    "python-dotenv>=1.0.0",
+]
+
+[tool.uv]
+package = false
+
